@@ -13,7 +13,7 @@
     },
     "hostRequirements": {
         "cpus": 8,
-        "memory": "16gb"
+        "memory": "32gb"
     },
     "postCreateCommand": "cd scripts/; ./main.sh | tee ~/main.log",
     "forwardPorts": [7007, 3000]
